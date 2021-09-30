@@ -1,0 +1,279 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper,sans]{moderncv}      % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+%\usepackage{fontawesome}
+%\usepackage{marvosym}
+%\usepackage{hyperref}
+% modern themes
+\moderncvstyle{classic}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{\LARGE{Miguel}}{\LARGE{Ter\'an}}
+\title{\LARGE{Curriculum Vitae}}                               % optional, remove / comment the line if not wanted
+\extrainfo{Lugar-fecha de nacimiento:\\ CDMX-19/10/89}
+
+\address{Tijuana}{C. P. 22236}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{(664)787-65-02}
+%\phone[fixed]{(664)6299916}                    % optional, remove / comment the line if not wanted
+%\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\social[linkedin][linkedin.com/in/miguelter4n/]{MiguelTer4n}
+\email{angel.teran@uabc.edu.mx}
+\photo[75pt][0.4pt]{b.png}                            % optional, remove / comment the line if not wanted
+%\homepage{\faLinkedin/in/terancruzm}                         % optional, remove / comment the line if not wanted
+                % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture.jpg}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%---------------------------------------------------------------------------------
+
+%\AtBeginDocument{\hypersetup{colorlinks, urlcolor=NavyBlue}}
+%\renewcommand\textbullet{\ensuremath{\bullet}}
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\small{}
+%\href{http://google.com}
+
+\section{Cualificaciones}
+
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\cventry{2020-presente}{Doctorado en Ciencias
+(F\'isica)}{FC-UABC} {Ensenada} {} { Tesis: Estudio de transitorios cuánticos en partículas idénticas enredadas.}}
+
+\item{\cventry{01/2013-10/2016}{Maestr\'ia en Ciencias
+(F\'isica)}{IF-UNAM} {CDMX} {} { Tesis: Din\'amica del decaimiento
+cu\'antico de dos part\'iculas id\'enticas enredadas.}}
+%Supervisor: Dr. Gast\'on Garc\'ia-Calder\'on. \textbf{e-mail}:
+
+\item{\cventry{08/2008-12/2012}{F\'isico}{FC-UABC}{Ensenada}{}
+{ }}  % arguments 3 to 6 can be left empty
+
+
+\end{itemize}
+
+\section{Docencia}
+
+\subsection{Universidad}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{\cventry{08/2019-2020}{Maestro}{Ibero-UEE}{Tijuana}
+{}{Curso: Termodin\'amica, Cálculo Vectorial, Mecánica del Medio Continuo y Probabilidad y Estadística. Plan: Ingeniería.}{}}
+\vspace{3pt}
+
+
+\item{\cventry{01-05/2017}{Maestro}{TBC}{Tijuana} {}{Curso:
+F\'isica I (Est\'atica), Física II (Dinámica), Ciencias e Ingeniería de Materiales, Sistemas Electromecánicos y Electricidad y Magnetismo. Plan: Ingeniería.}{}}\vspace{3pt}
+
+\end{itemize}
+
+\subsection{Preparatoria}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{\cventry{09-10/2018}{Profesor}{IBTT}{Tijuana}{} {Cursos:
+Qu\'imica I, F\'isica I y Matem\'aticas V. Plan
+DGETI.}{}{}}\vspace{3pt}
+
+\item{\cventry{10-12/2017}{Profesor}{IBTT}{Tijuana}{} {Cursos:
+F\'isica I y II.}{}{}}\vspace{3pt}
+
+\item{\cventry{02-07/2017}{Profesor}{COES}{Tijuana} {}{Cursos:
+F\'isica I y II. Plan DGETI.}{}{}}\vspace{3pt}
+
+
+\item{\cventry{01-06/2016}{Profesor}{CACH}{Tijuana} {}{Cursos:
+F\'isica II, Matem\'aticas IV y \'Algebra. Plan
+COBACH.}{}{}}\vspace{3pt}
+
+
+\item{\cventry{03-09/2012}{Asistente (Servicio
+Profesional)}{CONALEP}{Ensenada} {}{Programa: Apoyo para Ciencias
+Contemporaneas y su Impacto Social}{}}\vspace{3pt}
+
+\end{itemize}
+
+
+%\vspace{30pt}
+%\cventry{}{\homepagesymbol\httplink{ www.homepage.com}}{name}{institution}{}{}
+%\color{blue}{{\httplink{ www.homepage.com}}
+
+%\vspace{10pt}
+\section{Extracurricular}
+
+\subsection{Escuelas}
+
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\cventry{19-23/05/2014}{Aplicaciones Modernas de
+la Mec\'anica Cu\'antica}{UdeG}{Gda}{}{}}  % arguments 3 to 6 can be left empty
+
+\item{\cventry{17-26/06/2013}{8a Escuela Mexicana de F\'isica
+Nuclear}{SMF}{CDMX}{}{}}
+
+\item{\cventry{20-31/08/2012}{III Taller de F\'isica de
+Nanoestructuras}{CNyN-UNAM}{Ensenada}{}{}}
+
+\item{\cventry{31/07-10/08, 2012}{Escuela de verano en \'Optica
+y Optoelectr\'onica}{CICESE}{Ensenada}{}{}}  % arguments 3 to 6 can be left empty
+
+\item{\cventry{4-29/06/2012}{XXI Curso de Verano en el
+Observatorio}{IA-UNAM}{Ensenada}{}{}}
+
+\end{itemize}
+
+\vspace{5pt}
+
+\subsection{Congresos}
+
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\cventry{4/12/2014}{XII Congreso de estudiantes del Posgrado
+en Ciencias F\'isicas}{UNAM}{CDMX}{}{Platica: Quantum dynamics of
+decay of two identical entangled particles.}}
+
+\item{\cventry{8-12/10/2012}{LV Congreso Nacional de
+F\'isica}{SMF}{Morelia}{}{Poster: Recognition algorithm of
+diffraction pattern produced by trans-Neptunian occultations: TAOS
+II project.}}
+
+\item{\cventry{8/09/2011}{1er. Congreso Regional de \'Optica}{CICESE}{Ensenada}{}{}}  % arguments 3 to 6 can be left empty
+
+\end{itemize}
+
+\vspace{5pt}
+
+\subsection{Divulgaci\'on}
+
+
+\vspace{10pt}
+
+\begin{itemize}
+
+\item{\cventry{8-11/09/2009}{XXVI Semana de Ciencias}{FC-UABC}{Ensenada}{}{Proyecto 1: F\'isica Recreativa.\\
+Proyecto 2: Hoover: Carrito flotante, acci\'on y reacci\'on,
+oscilaciones aclopadas, banco giratorios y experimentos con
+velas.}}
+
+\end{itemize}
+
+\section{Becas}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{\cventry{2020-presente}{CONACYT}{Beca Nacional de Doctorado}{}{}{}}
+
+\item{\cventry{01/2013-01/2015}{CONACYT}{Beca Nacional de
+Maestr\'ia}{}{}{}}
+
+\item{\cventry{2015}{UNAM PAPIIT}{Beca para elaboraci\'on de
+tesis}{}{}{}}
+
+\end{itemize}
+
+\section{Publicaciones}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{\cventry{2019}{Journal of Physics: Conference Series}{}{}
+{Effect of the resonance spectra in the propagation of two
+decaying entangled particles (en revisi\'on)}{}}
+
+
+\end{itemize}
+
+
+\section{Habilidades}
+\vspace{6pt}
+
+\begin{itemize}
+
+\item \textbf{Programaci\'on:} Nivel b\'asico: Matlab,
+Mathematica, Python, R y Fortran.
+
+\vspace{6pt}
+
+\item \textbf{Software:} MS Office y Latex.
+
+\vspace{6pt}
+
+\item \textbf{SO:} Linux y Windows.
+
+\vspace{6pt}
+
+\item \textbf{Idiomas:} Ingl\'es.
+
+\end{itemize}
+
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+%\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.
